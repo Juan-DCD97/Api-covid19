@@ -2,16 +2,27 @@
   "name": "api",
   "version": "1.0.0",
   "description": "Proyecto que consumira api de covid-19",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
+    "start": "node build/main.js",
     "dev": "backpack",
     "build": "backpack build",
+    "eslint": "eslint --ext .js,.ts --ignore-path .gitignore .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Juan Carvajal",
   "license": "ISC",
   "devDependencies": {
-    "backpack-core": "^0.8.4"
+    "@types/node": "^14.0.5",
+    "@types/restify": "^8.4.2",
+    "@typescript-eslint/eslint-plugin": "^3.0.0",
+    "@typescript-eslint/parser": "^3.0.0",
+    "backpack-core": "^0.8.4",
+    "eslint": "^7.1.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.3"
   },
   "dependencies": {
     "restify": "^8.5.1",
