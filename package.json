@@ -5,11 +5,16 @@
   "main": "index.js",
   "scripts": {
     "dev": "backpack",
+    "build": "backpack build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Juan Carvajal",
   "license": "ISC",
   "devDependencies": {
     "backpack-core": "^0.8.4"
+  },
+  "dependencies": {
+    "restify": "^8.5.1",
+    "restify-router": "^0.5.1"
   }
 }
