@@ -4,11 +4,12 @@
   "description": "Proyecto que consumira api de covid-19",
   "main": "index.js",
   "scripts": {
+    "dev": "backpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Juan Carvajal",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.3"
+    "backpack-core": "^0.8.4"
   }
 }
